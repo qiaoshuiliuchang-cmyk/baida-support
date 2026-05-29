@@ -3,21 +3,85 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=./index.html">
   <title>百搭珠宝 - 技术支持</title>
   <style>
-    body {
+    :root {
+      color-scheme: light;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      padding: 48px 20px;
       color: #17211f;
       background: #f5f7f6;
+    }
+    body {
+      margin: 0;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    header {
+      border-bottom: 1px solid #d9e1de;
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(32px, 6vw, 48px);
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 22px;
+    }
+    p, li {
+      font-size: 16px;
     }
     a {
       color: #0b6f64;
     }
+    .panel {
+      background: #fff;
+      border: 1px solid #d9e1de;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .muted {
+      color: #5a6763;
+    }
   </style>
 </head>
 <body>
-  <p>正在打开百搭珠宝技术支持页。若未自动跳转，请点击 <a href="./index.html">这里</a>。</p>
+  <main>
+    <header>
+      <h1>百搭珠宝技术支持</h1>
+      <p class="muted">Support for Baida Jewelry App</p>
+      <p>百搭珠宝是面向翡翠珠宝商家的商品资料、订单履约、供应链协作、客服工单和经营结算工具。</p>
+    </header>
+
+    <section class="panel">
+      <h2>联系我们</h2>
+      <p>如遇到登录、商品、订单、钱包结算或账号相关问题，请通过以下方式联系：</p>
+      <ul>
+        <li>邮箱：<a href="mailto:raoxuping@126.com">raoxuping@126.com</a></li>
+        <li>电话：<a href="tel:+8613800138000">+86 13800138000</a></li>
+        <li>工作时间：周一至周五 09:00-18:00（北京时间）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>常见问题</h2>
+      <p><strong>登录或验证码无法使用：</strong>请确认手机号正确、网络连接正常。如短信服务暂时不可用，请联系客服处理。</p>
+      <p><strong>商品图片无法上传：</strong>请确认已授予相册访问权限，并检查网络连接。</p>
+      <p><strong>订单或结算问题：</strong>请保留订单编号、截图和发生时间，客服会协助核对。</p>
+    </section>
+
+    <section>
+      <h2>隐私与数据</h2>
+      <p>App 仅为提供账号、商品、订单、客服和经营结算服务收集必要信息，不出售用户个人信息。隐私相关问题可通过上述邮箱联系我们。</p>
+      <p><a href="./privacy.html">查看隐私政策</a></p>
+    </section>
+  </main>
 </body>
 </html>
